@@ -1,0 +1,51 @@
+= wgpu
+
+https://wgpu.rs/
+
+https://github.com/gfx-rs/wgpu
+
+https://crates.io/crates/wgpu-info
+
+----
+$ WGPU_BACKEND=gl RUST_BACKTRACE=1 cargo run
+----
+
+https://mesa3d.org/
+
+
+----
+cargo install wgpu-info
+----
+
+
+----
+$ wgpu-info
+[ERROR wgpu_hal::gles::egl] EGL 'eglInitialize' code 0x3001: DRI2: failed to load driver
+[ERROR wgpu_hal::gles::egl] EGL 'eglInitialize' code 0x3001: DRI2: failed to load driver
+Adapter 0:
+                       Backend: Vulkan
+                          Name: llvmpipe (LLVM 19.1.7, 128 bits)
+                     Vendor ID: 0x10005
+                     Device ID: 0x0
+             Device PCI Bus ID: <empty>
+                          Type: Cpu
+                        Driver: llvmpipe
+                   Driver Info: Mesa 25.0.7-2 (LLVM 19.1.7)
+             Subgroup Min Size: 4
+             Subgroup Max Size: 4
+        Transient Saves Memory: false
+              WebGPU Compliant: true
+Adapter 1:
+                       Backend: Gl
+                          Name: llvmpipe (LLVM 19.1.7, 128 bits)
+                     Vendor ID: 0x10005
+                     Device ID: 0x0
+             Device PCI Bus ID: <empty>
+                          Type: Cpu
+                        Driver: <empty>
+                   Driver Info: 4.5 (Core Profile) Mesa 25.0.7-2
+             Subgroup Min Size: 4
+             Subgroup Max Size: 128
+        Transient Saves Memory: false
+              WebGPU Compliant: false
+----

@@ -1,0 +1,32 @@
+= deps
+
+
+----
+$ sudo apt install librust-wayland-sys-dev
+$ sudo apt install librust-libudev-sys-dev
+$ sudo apt install libxkbcommon-x11-dev
+$ sudo apt install mesa-vulkan-drivers
+$ sudo apt install mesa-utils -y
+
+
+sudo apt install libgl1-mesa-dev libglu1-mesa-dev freeglut3-dev
+sudo apt install mesa-utils mesa-common-dev libglew-dev libglfw3-dev
+
+----
+
+https://blog.vmhoster.com/how-to-install-opengl-in-ubuntu/
+
+----
+$ glxinfo | grep "OpenGL version"
+OpenGL version string: 4.5 (Compatibility Profile) Mesa 25.0.7-2
+
+
+glxinfo | grep "OpenGL version"
+glxinfo | grep "OpenGL vendor"
+glxinfo | grep "OpenGL renderer"
+glxinfo | grep "direct rendering"
+
+glxgears
+
+
+----

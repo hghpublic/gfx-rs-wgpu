@@ -1,0 +1,59 @@
+= Stash
+
+
+
+https://sotrh.github.io/learn-wgpu/
+
+
+
+== Containers for Apple Silicon Macs work with GPU-accelerated Vulkan #8042
+
+https://github.com/ggml-org/llama.cpp/discussions/8042
+
+
+== Enabling containers to access the GPU on macOS
+
+
+https://sinrega.org/2024-03-06-enabling-containers-gpu-macos/
+
+
+== Develop OpenGL Apps In A Docker Container Without GPU
+
+
+https://yrom.net/blog/2025/07/27/develop-opengl-apps-in-docker-without-gpu/
+
+
+
+https://github.com/ggml-org/llama.cpp
+
+
+== GPU-Accelerated Containers for M1/M2/M3/M4… Macs
+
+https://medium.com/@andreask_75652/gpu-accelerated-containers-for-m1-m2-m3-macs-237556e5fe0b
+
+== M-series Macs & GPU-Accelerated Containers
+
+https://medium.com/@andreask_75652/m-series-macs-gpu-accelerated-containers-f09d5e54a1b2
+
+
+== GPU Accelerated Containers on Apple Silicon with libkrun and podman machine - DevConf.US 2024
+
+https://www.youtube.com/watch?v=OyTJ8FtQaJ0
+
+== Unlocking Local AI on Any GPU: Docker Model Runner Now with Vulkan Support
+
+
+https://www.docker.com/blog/docker-model-runner-vulkan-gpu-support/
+
+
+== Enabling containers to access the GPU on macOS
+
+
+https://sinrega.org/2024-03-06-enabling-containers-gpu-macos/
+
+
+== podman
+
+GPU container access
+
+https://podman-desktop.io/docs/podman/gpu

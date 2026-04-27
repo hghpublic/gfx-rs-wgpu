@@ -1,0 +1,21 @@
+= Examples
+
+
+
+== 02_hello_window
+
+----
+$ cargo build
+$ sudo apt install libxkbcommon-x11-dev
+----
+
+
+----
+$ cargo run                               
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running `/workspaces/gfx-rs-wgpu/target/debug/wgpu-example-02-hello-window`
+
+thread 'main' (82391) panicked at examples/standalone/02_hello_window/src/main.rs:38:41:
+index out of bounds: the len is 0 but the index is 0
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+----
